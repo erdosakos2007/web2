@@ -3,8 +3,9 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
   }
+  
   
   li {
     float: left;
@@ -19,9 +20,42 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: #111;
+    background-color: black;
   }
   
   .active {
     background-color: #04AA6D;
   }
+
+
+
+
+  .all-browsers {
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+  }
+  
+  .all-browsers > h1, .browser {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .browser {
+    background: white;
+  }
+  
+  .browser > h2, p {
+    margin: 4px;
+    font-size: 90%;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: red;
+    color: black;
+  }
+
+
+
