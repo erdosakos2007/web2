@@ -1,0 +1,15 @@
+body{
+    background-image: url(hatter.png);
+}
+h1{
+    text-align: center;
+   color:  #eb7100;
+}
+h2{
+    text-align: left;
+   color:  #eb7100;
+}
+
+.bevezeto{
+    padding: 600px;
+}
