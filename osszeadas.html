@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <link rel="stylesheet" href="style.css">
+    
+    <ul>
+        <li><a href="responziv.html">Home</a></li>
+        <li><a href="index.html">Index</a></li>
+        <li><a href="keplink.html">Képlink</a></li>
+        <li><a href="lista.html">Lista</a></li>
+        <li><a href="urlap.html">Űrlap</a></li>
+        <li><a href="tablazatok.html">Táblázatok</a></li>
+        <li><a href="evszakok.html">Évszakok</a></li>
+        <li><a class="active"  href="osszeadas.html">Összeadás</a></li>
+  
+   </ul>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gombnyomogatos</title>
+</head>
+<body>
+    <h1>Összeadó cuccos</h1>
+
+<form action="javascript:ad()">
+    <input type="number" name="a" id="a" placeholder="szam1"> +
+    <input type="number" name="b" id="b" placeholder="szam2"> =
+    <input type="text" name="c" id="c" placeholder="eredmeny">
+    <input type="submit" value="SUBMIT">
+    <input type="color" name="szin" id="szin">
+</form>
+
+<script>
+function ad(){
+    c.value = (Number(a.value) + Number(b.value));
+    document.body.style.backgroundColor = szin.value;
+}
+</script>
+</body>
+</html>
