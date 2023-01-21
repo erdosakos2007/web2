@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Összeadás</title>
+
+
+    <link rel="stylesheet" href="style.css">
+    
+    <ul>
+        <li><a href="responziv.html">Home</a></li>
+        <li><a href="index.html">Index</a></li>
+        <li><a href="keplink.html">Képlink</a></li>
+        <li><a href="lista.html">Lista</a></li>
+        <li><a href="urlap.html">Űrlap</a></li>
+        <li><a href="tablazatok.html">Táblázatok</a></li>
+        <li><a href="evszakok.html">Évszakok</a></li>
+        <li><a class="active"  href="osszeadas2.html">Összeadás</a></li>
+  
+   </ul>
+
+</head>
+<body>
+<form action="javascript:void(0)">
+        <fieldset>
+            <legend>Egyszerű számológép program</legend>
+            <form action="javascript:ad()">
+                <input type="number" name="a" id="a" placeholder="szam1"> +
+                <input type="number" name="b" id="b" placeholder="szam2"> =
+                <input type="text" name="c" id="c" placeholder="eredmeny">
+            </form>
+            <br><br>
+            <input type="button" name="muv" value="+" onclick="ad()">
+
+            <input type="reset" name="muv" value="DEL">
+        </fieldset>
+</form>
+
+
+<script>
+    function ad(){
+        c.value = (Number(a.value) + Number(b.value));
+        document.body.style.backgroundColor = c.value;
+    }
+</script>
+
+
+
+
+
+<footer>
+    <p>©opyright:Erdös Ákos<br>
+    <a href="mailto:erdosa@kkszki.hu">erdosa@kkszki.hu</a></p>
+  </footer>
+
+</body>
+</html>
