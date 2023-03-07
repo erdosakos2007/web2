@@ -13,7 +13,7 @@ ul {
   
   li a {
     display: block;
-    color: blue;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -33,7 +33,7 @@ ul {
   .all-browsers {
     margin: 0;
     padding: 5px;
-    background-color: blue;
+    background-color: lightgray;
   }
   
   .all-browsers > h1, .browser {
@@ -42,7 +42,7 @@ ul {
   }
   
   .browser {
-    background: blue;
+    background: white;
   }
   
   .browser > h2, p {
@@ -59,6 +59,3 @@ ul {
 
 
 
-.lista1{background-color: blue;}
-
-.lista2{color: blue;}
